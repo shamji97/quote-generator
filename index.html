@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=css-tricks.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- START OF Quote BOX -->
+    <div class="quote_container_class" id="quote_container_id">
+
+        <!-- START Quote -->
+        <div class="quote_text_class">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote_text_id"></span>
+        </div>
+        <!-- END Quote ---->
+
+        <!-- START Author -->
+        <div class="author_class">
+            <span id="author_id"></span>
+        </div>
+        <!-- END Author ---->
+
+        <!-- START Buttons-->
+        <div class="button_container_class">
+            <button class="twitter_button_class" id="twitter_button_id" title="Tweet This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new_quote_button_id">New Quote</button>
+        </div>
+        <!-- END Buttons -->
+    </div>
+    <!-- END OF Quote BOX -->
+
+    <!-- Show Loader Spinner -->
+    <div class="loader_class" id="loader_id"></div>
+    <script src="script.js"></script><!-- Used to Fetch Quotes From API-->
+    <!-- <script src="quote.js"></script> --><!-- Used To Fetch Quotes Locally -->  
+</body>
+</html>
